@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Queens Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <h1>N-Queens Solver</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <form id="solveForm">
+                <label for="boardSize">Chessboard Size (N):</label>
+                <input type="number" id="boardSize" name="N" min="1" required>
+                <button type="submit">Solve</button>
+            </form>
+        </section>
+        <section id="boardContainer" class="board-container">
+            <div id="solution"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 N-Queens Solver. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

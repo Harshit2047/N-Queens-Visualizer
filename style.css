@@ -52,7 +52,7 @@ main {
 }
 
 .form-section input[type="number"] {
-    width: 100%; /* Full width */
+    width: calc(100% - 20px); /* Adjusted width to match the button with padding */
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
@@ -63,7 +63,7 @@ main {
 }
 
 .form-section button {
-    width: 100%;
+    width: calc(100% - 20px); /* Adjusted width to match the input with padding */
     padding: 10px;
     background-color: #61dafb;
     color: #282c34;

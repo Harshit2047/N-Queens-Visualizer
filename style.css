@@ -46,13 +46,14 @@ main {
 }
 
 .form-section input[type="number"] {
-    width: 100%;
+    width: 60px; /* Reduced width */
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: #282c34;
     color: #ffffff;
+    text-align: center; /* Centered text */
 }
 
 .form-section button {
